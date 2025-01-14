@@ -19,19 +19,19 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-10 px-5">
-            <button className=" pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Reglamento de Copropiedad<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></button>
+            <Link href="/reglamento-de-copropiedad" className=" pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Reglamento de Copropiedad<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></Link>
           </div>
 
           <div className="flex justify-center mt-10 px-5">
-            <button className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Rectificación de Copropiedad<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></button>
+            <Link href="/rectificacion-de-copropiedad" className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Rectificación de Copropiedad<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></Link>
           </div>
 
           <div className="flex justify-center mt-10 px-5">
-            <button className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Reglamento de Lavandería<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></button>
+            <Link href="reglament-de-lavanderia" className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Reglamento de Lavandería<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></Link>
           </div>
 
           <div className="flex justify-center mt-10 px-5">
-            <button className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Cuadro de superficie<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></button>
+            <Link href="cuadro-de-superficie" className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Cuadro de superficie<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></Link>
           </div>
         </section>
       </main>
