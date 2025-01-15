@@ -6,10 +6,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 export default function Home() {
   return (
     <>
-      <main className="pb-10">
-        <section>
-          <Image src="/villamar/banner_1.jpg" alt="Imagen principal Villamar" width={1000} height={300} className="img-banner"/>
-        </section>
+      <main className="pb-5">
+       <div className="flex justify-center py-2 border-t border-blue-500">
+                  <h3 className="text-white text-md font-light">Comunidad Edificio Villamar 2025</h3>
+              </div>
+              <Image src="/villamar/banner_1.jpg" alt="Imagen principal Villamar" width={1000} height={300} className="img-banner"/>
 
         <section>
           <h1 className="text-3xl text-white text-center mt-5 font-light">Comunidad Villamar</h1>
@@ -34,6 +35,10 @@ export default function Home() {
             <Link href="cuadro-de-superficie" className="pl-5 pr-3 text-white text-xl font-light border w-full py-3 rounded-full shadow-xl shadow-blue-950 flex justify-between items-center">Cuadro de superficie<IoIosArrowRoundForward className="text-white text-4xl pt-1 pb-1 border rounded-full"/></Link>
           </div>
         </section>
+
+        <footer className="flex justify-center py-2 border-t border-blue-500 mt-10">
+            <h3 className="text-white text-md font-light">Comunidad Edificio Villamar 2025</h3>
+        </footer>
       </main>
     </>
   );
