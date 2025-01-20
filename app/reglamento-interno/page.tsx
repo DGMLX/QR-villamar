@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { IoIosArrowRoundForward } from 'react-icons/io'
 import { MdArrowBack } from "react-icons/md";
 
 export default function ReglamentoInterno() {
